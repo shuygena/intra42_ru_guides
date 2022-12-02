@@ -85,3 +85,9 @@
 
 <a name="so_long">so_long</a>  
 ----------
+
+<a name="inception">Inception</a>  
+----------
+[Гайд](https://github.com/rbiodies/inception) от rbiodies  
+[Гайд](https://github.com/codesshaman/inception)от jleslee  
+[Гайд](https://github.com/luta-wolf/inception) от einterdi  
