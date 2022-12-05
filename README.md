@@ -58,12 +58,13 @@
 ----------
 [ресурс для генерации чисел](https://stattrek.com/statistics/random-number-generator.aspx#error)  
 [Wiki](https://github.com/VBrazhnik/Push_swap/wiki/Algorithm) с алгоритмом бражника  
+[Бинарная сортировка](https://www.programiz.com/dsa/radix-sort) объяснение и реализация на разных языках  
 [Видео](https://www.youtube.com/watch?v=KeDXVukgd9g) от @lajudy
 
 <a name="pipex">pipex</a>  
 ----------
 Инструкция от @jkate:  
-Начинаем с открытия файлов и fd-ников: [one](http://www.c-cpp.ru/content/open-rtlopen), [two](http://codewiki.wikidot.com/c:system-calls:open) , [three](http://www.ccfit.nsu.ru/~deviv/courses/unix/unix/ng1e3d8.html), [four](https://coderoad.ru/2245193/Почему-open-создает-мой-файл-с-неправильными-разрешениями);  
+>Начинаем с открытия файлов и fd-ников: [one](http://www.c-cpp.ru/content/open-rtlopen), [two](http://codewiki.wikidot.com/c:system-calls:open) , [three](http://www.ccfit.nsu.ru/~deviv/courses/unix/unix/ng1e3d8.html), [four](https://coderoad.ru/2245193/Почему-open-создает-мой-файл-с-неправильными-разрешениями);  
 Полезный лайфхак: если закрыть 0-й fd-ник, а потом открыть файл, то ему запишется 0-й;  
 [Продолжаем, делая pipe](https://www.geeksforgeeks.org/pipe-system-call/);  
 [Делаем первый fork https](//man7.org/linux/man-pages/man2/fork.2.html);  
@@ -73,13 +74,15 @@
 [Для ошибок](http://www.c-cpp.ru/books/exit);  
 [Если решите использовать waitpid](https://stackoverflow.com/questions/21248840/example-of-waitpid-in-use); 
 
-[Видео](https://www.youtube.com/watch?v=6xbLgZpOBi8&t=2s) на YouTube
+[Видео про пайпы](https://www.youtube.com/watch?v=vLl7P0PCfE4) от МФТИ  
+[Видео-лекции](https://www.youtube.com/watch?v=6xbLgZpOBi8&t=2s) на YouTube  
 
 <a name="minitalk">minitalk</a>  
 ----------
 
 [Видео](https://youtu.be/E-bk6EkNsnY) от @ftassada  
 [Видео на Youtube](https://www.youtube.com/playlist?list=PLfqABt5AS4FkW5mOn2Tn9ZZLLDwA3kZUY) про fork()  
+[Видео про сигналы](https://www.youtube.com/watch?v=xrdUAfAHf-s) от МФТИ  
 [Статья](https://www.opennet.ru/docs/RUS/glibc/glibc-21.html#ss21.1) про сигналы
 
 <a name="so_long">so_long</a>  
@@ -98,8 +101,70 @@
 [Документация](https://harm-smits.github.io/42docs/libs/minilibx.html) по minilibx   
 [Алгоритмы построения графиков для множества Мандельброта](https://en.m.wikipedia.org/wiki/Plotting_algorithms_for_the_Mandelbrot_set) статья на википедии  
 
+<a name="philo">Philosophers</a>  
+----------
+[Визуализатор](https://nafuka11.github.io/philosophers-visualizer/)  
+[Статья](https://learnc.info/c/pthreads_deadlock.html) про дедлок  
+[Книга Столярова](http://www.stolyarov.info/books/pdf/osintro.pdf) про обедающих философов с на стр. 162 (Лекция 13)  
+[Тестер 1](https://github.com/cacharle/philosophers_test)  
+[Тестер 2](https://github.com/nesvoboda/socrates)  
+[Актуальные ссылки в readme](https://github.com/4-o-4/42_philosophers)  
+
+<a name="minishell">minishell</a>  
+----------
+вместе с флагом -lreadline нужно прописать вот эти флаги:  
+```
+-L/Users/ваш ник/.brew/Cellar/readline/8.1/lib/  
+-I/Users/ваш ник/.brew/Cellar/readline/8.1/include  
+```
+[Тестер 1](https://pypi.org/project/minishell-test/#description) (старый, может неправильно работать)  
+[Тестер 2](https://github.com/alchrist42/msh_tester) (новый, должен работать)  
+[Видео-лекция](https://www.youtube.com/watch?v=Um3pzuee-4Y) от weambros  
+[Полезная табличка]() для обработки сигналов   
+Терминология shell по стандарту (чтобы было взаимопонимание в команде):  
+ [AND-OR list](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_09_03) :: [pipeline](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_09_02) :: [(simple) command](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_09_01)  
+[Кейсы](https://docs.google.com/spreadsheets/d/1RPxSWKzRELfAirkaLeqqzoEArkaq9Vy7tTEHEnamlgA/edit#gid=0) для проверки  
+[Настройка цветов](https://github.com/tlucanti/minishell/blob/master/inc/color.h) для ридлайна  
+[Гайд](http://ccfit.nsu.ru/~deviv/courses/unix/unix/menu.html) по системным вызовам  
+[Список разрешённых функций](https://github.com/bakyt92/09_minishell/blob/master/Functions_approved.md) с описаниями  
+[Maindmap](https://miro.com/app/board/uXjVOnCCft4=/) от @ufitzhug  
+> Как зайти отладчиком в дочерний процесс:  
+Для LLDB не знаю, есть возможность или нет.  
+Для GDB на его панели в отладчике ПЕРЕД ВЫПОЛНЕНИЕМ fork() надо ввести ```set follow-fork-mode child``` и ```set detach-on-fork off```. То есть можно прямо на fork() точку останова установить, и во время отладки до прохода этой точки ввести команды и продолжать отладку как обычно.  
+Это на связке WSL-CLion через Windows 10 работает, ну и на Linux должно (edited).  
+
+<a name="cub3d">cub3d</a>
+----------
+[]()
+[]()
+[]()
+[]()
+[]()
+[]()
+[]()
+[]()
+[]()
+
+<a name="netpractice">NetPractice</a>  
+----------
+[]()
+[]()
+[]()
+[]()
+[]()
+[]()
+
+<a name="cpp">CPP_Piscine</a>
+----------
+[]()
+[]()
+[]()
+[]()
+[]()
+[]()
+
 <a name="inception">Inception</a>  
 ----------
-[Гайд](https://github.com/rbiodies/inception) от rbiodies  
-[Гайд](https://github.com/codesshaman/inception)от jleslee  
-[Гайд](https://github.com/luta-wolf/inception) от einterdi  
+[Гайд](https://github.com/rbiodies/inception) от @rbiodies  
+[Гайд](https://github.com/codesshaman/inception) от @jleslee  
+[Гайд](https://github.com/luta-wolf/inception) от @einterdi  
