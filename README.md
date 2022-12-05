@@ -82,9 +82,21 @@
 [Видео на Youtube](https://www.youtube.com/playlist?list=PLfqABt5AS4FkW5mOn2Tn9ZZLLDwA3kZUY) про fork()  
 [Статья](https://www.opennet.ru/docs/RUS/glibc/glibc-21.html#ss21.1) про сигналы
 
-
 <a name="so_long">so_long</a>  
 ----------
+[Документация](https://harm-smits.github.io/42docs/libs/minilibx.html) по minilibx   
+[Конвертер в XPM](https://www.online-utility.org/image/convert/to/XPM) без ограничений  
+[Беслпатные png-картинки](https://www.freepng.ru/) (работает только с VPN)  
+[Канал по minilibx](https://42born2code.slack.com/archives/C9VCML4KB/p1624302999003100) в глобальном слаке   
+[Дополнительная информация](https://aurelienbrabant.fr/blog/getting-started-with-the-minilibx) по minilibx
+
+<a name="fdf">FDF</a>  
+----------
+
+<a name="fract_ol">fract-ol</a>  
+----------
+[Документация](https://harm-smits.github.io/42docs/libs/minilibx.html) по minilibx   
+[Алгоритмы построения графиков для множества Мандельброта](https://en.m.wikipedia.org/wiki/Plotting_algorithms_for_the_Mandelbrot_set) статья на википедии  
 
 <a name="inception">Inception</a>  
 ----------
