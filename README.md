@@ -18,7 +18,7 @@
 - [Philosophers](#philo)
 - [minishell](#minishell)
 - [cub3d](#cub3d)
-- [miniRT](#minirt)
+- [miniRT&cub3d](#minirt_cub3d)
 - [NetPractice](#netpractice)
 - [CPP_Piscine](#cpp)
 - [Inception](#inception)
@@ -147,44 +147,67 @@ target_link_libraries(cub3d
 ```
 >Не знаю что значит куча этих строк, у меня вот такая простая  конструкция работала
 
-nGragas:
+@nGragas:
 > Хеллоу!!  
 Хочу поделиться результатом того, что затянуло меня на 50 дней кодинга в школе (спасибо продлённым дедлайнам) - [проект cub3D](https://youtu.be/ujFoM7Q15zM) 
 Текстурированные пол-потолок, полный обзор мышкой и прыжки-приседания, фрицы с овчарками с поиском пути, позиционированный звук, двери и секретные двери и прочие мелочи, чтобы повторить оригинал Wolfenstein 3D (>3000 отнорминетченных строк кода).  
 К этой игре задизайнили свои доп уровни   
 @mharriso - horror.cub и   
 @Сkendall - neon.cub.  
-Возможно это вдохновит кого-то на написание крутого cub3D, как когда-то меня вдохновило видео от @amalliar   
+Возможно это вдохновит кого-то на написание крутого cub3D, как когда-то меня вдохновило [видео](https://www.youtube.com/watch?v=a0tBn15kaXw) от @amalliar   
 Скачать поиграть на школьных маках можно [отсюда](https://github.com/Rush-iam/nGragasstein3D-cub3D/releases)
-В Интре есть видео с интересной реализацией cub3D - лестницы, многоэтажность, полигональные выступы
-https://elearning.intra.42.fr/notions/wolf3d-doom-nukem/subnotions/wolf3d-demonstration/videos/demonstration
-[]()
-[]()
-[]()
-[]()
-[]()
-[]()
-[]()
-[]()
-[]()
 
-<a name="minirt">miniRT</a>  
+>В Интре есть [видео](https://elearning.intra.42.fr/notions/wolf3d-doom-nukem/subnotions/wolf3d-demonstration/videos/demonstration) с интересной реализацией cub3D - лестницы, многоэтажность, полигональные выступы
+
+<a name="minirt_cub3d">miniRT&cub3d</a>
 ----------
-[]()
-[]()
-[]()
-[]()
-[]()
-[]()
+@DXhoan
+>А никого не смущает, что функции для реверса цвета в 42docs с ошибкой написаны?
+Должно быть вот так:
+```
+	r = (figure_color & (0xFF << 16)) >> 16;
+	g = (figure_color & (0xFF << 8)) >> 8;
+	b = figure_color & 0xFF;
+```
+>Добавление: или так можно, если не используете прозрачность:
+```
+	r = figure_color >> 16;
+	g = (figure_color & (0xFF << 8)) >> 8;
+	b = figure_color & 0xFF;
+```
+ 
+@enena
+>Кто выбирает динамическую на свифте ради get_screen_size - я написал ее на статику через фреймворк AppKit:  
+прототип в mlx.h - реализацию в mlx_get_screen_size.m - не забудьте добавить файл к сборке в Мэйкфайле  
+```cpp
+#import <AppKit/NSScreen.h>
+void    mlx_get_screen_size(int *width, int *height)
+{
+    NSRect disp = [[NSScreen mainScreen] frame];
+    *height = (int)disp.size.height;
+    *width = (int)disp.size.width;
+}
+```
+[Документация](https://harm-smits.github.io/42docs/libs/minilibx.html) по minilibx
+[Описание](https://qst0.github.io/ft_libgfx/man_mlx.html) функций mlx  
+[Статья](https://medium.com/sysf/bits-to-bitmaps-a-simple-walkthrough-of-bmp-image-format-765dc6857393) про BMP  
+[Видио на интре](https://elearning.intra.42.fr/notions/minilibx/subnotions) про mlx
+
+[miniRT в терминале](https://www.youtube.com/watch?v=QkETiyYWh2o) - видео на YouTube   
+Теория по цилиндрам miniRT: [link1](https://mrl.cs.nyu.edu/~dzorin/rend05/lecture2.pdf), [link2](http://hugi.scene.org/online/hugi24/coding%20graphics%20chris%20dragan%20raytracing%20shapes.htm)  
+[Видео на YouTube](https://youtu.be/jKjbeWHujV0) про трассировку лучей  
+[Видеолекция](https://www.notion.so/miniRT-tutorials-eedfa239615042d582eeed1fae0209bc) на notion про miniRT    
+
+Ссылка на улучшенную браузерную версию есть в сабджекте: [Wolfenstein 3D](http://users.atw.hu/wolf3d/)  
+Чтобы ещё лучше понимать то, как игра спроектирована, а также те трудности, которые преодолевали разработчики - несколько лет назад вышла крутая фанатская книга Game Engine Black Book: Wolfenstein 3D - на 300 страниц с множеством скриншотов, из которой можно почерпнуть множество интересных деталей. [Книга](https://fabiensanglard.net/gebbwolf3d.pdf) бесплатна для скачивания.  
+[Видеолекция](https://www.notion.so/Cub3D-fd79729951a84906807af2b252f1d0bc) на notion про cub3d  
 
 <a name="netpractice">NetPractice</a>  
 ----------
-[]()
-[]()
-[]()
-[]()
-[]()
-[]()
+[Общее объяснение](https://github.com/ifanzilka/NetPractice) задач проекта  
+[Курс](https://www.asozykin.ru/courses/networks_online) по компьютерным сетям  
+[Гайд](https://github.com/Sglossu/net_practice) от @sglossu  
+[Туториал](https://github.com/luta-wolf/NetPractice) от @einterdi  
 
 <a name="cpp">CPP_Piscine</a>
 ----------
