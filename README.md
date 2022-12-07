@@ -18,6 +18,7 @@
 - [Philosophers](#philo)
 - [minishell](#minishell)
 - [cub3d](#cub3d)
+- [miniRT](#minirt)
 - [NetPractice](#netpractice)
 - [CPP_Piscine](#cpp)
 - [Inception](#inception)
@@ -135,9 +136,40 @@
 
 <a name="cub3d">cub3d</a>
 ----------
+@cdrennan:
+>
+```
+target_link_libraries(cub3d
+        /Users/cdrennan/Desktop/cub3d/libmlx.dylib
+        "-framework OpenGL"
+        "-framework AppKit"
+        /Users/cdrennan/Desktop/cub3d/libft.a)
+```
+>Не знаю что значит куча этих строк, у меня вот такая простая  конструкция работала
+
+nGragas:
+> Хеллоу!!  
+Хочу поделиться результатом того, что затянуло меня на 50 дней кодинга в школе (спасибо продлённым дедлайнам) - [проект cub3D](https://youtu.be/ujFoM7Q15zM) 
+Текстурированные пол-потолок, полный обзор мышкой и прыжки-приседания, фрицы с овчарками с поиском пути, позиционированный звук, двери и секретные двери и прочие мелочи, чтобы повторить оригинал Wolfenstein 3D (>3000 отнорминетченных строк кода).  
+К этой игре задизайнили свои доп уровни   
+@mharriso - horror.cub и   
+@Сkendall - neon.cub.  
+Возможно это вдохновит кого-то на написание крутого cub3D, как когда-то меня вдохновило видео от @amalliar   
+Скачать поиграть на школьных маках можно [отсюда](https://github.com/Rush-iam/nGragasstein3D-cub3D/releases)
+В Интре есть видео с интересной реализацией cub3D - лестницы, многоэтажность, полигональные выступы
+https://elearning.intra.42.fr/notions/wolf3d-doom-nukem/subnotions/wolf3d-demonstration/videos/demonstration
 []()
 []()
 []()
+[]()
+[]()
+[]()
+[]()
+[]()
+[]()
+
+<a name="minirt">miniRT</a>  
+----------
 []()
 []()
 []()
