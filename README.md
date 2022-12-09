@@ -223,3 +223,14 @@ void    mlx_get_screen_size(int *width, int *height)
 [Гайд](https://github.com/rbiodies/inception) от @rbiodies  
 [Гайд](https://github.com/codesshaman/inception) от @jleslee  
 [Гайд](https://github.com/luta-wolf/inception) от @einterdi  
+
+<a name="containers">ft_containers</a>  
+----------
+
+<a name="irc">ft_irc</a>
+----------
+[Материалы и реализация](https://github.com/levensta/IRC-Server) от @levensta  
+[Видеолекция](https://www.youtube.com/watch?v=I9o-oTdsMgI) от @gmorra
+
+<a name="webserv">webserv</a>
+----------
