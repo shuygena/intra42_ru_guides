@@ -234,3 +234,35 @@ void    mlx_get_screen_size(int *width, int *height)
 
 <a name="webserv">webserv</a>
 ----------
+
+Про селект и сокеты [статья](http://www.wangafu.net/~nickm/libevent-book/01_intro.html) и [видео](https://www.youtube.com/watch?v=9J1nJOivdyw).  
+[Пояснения заголовков](https://developer.mozilla.org/ru/docs/Web/HTTP/Headers/Accept-Ranges).  
+[Статья](https://www.coderdocs.ru/d/webserver-21-CbLKRlBcZCIbf)
+Webserv на C [статья](https://medium.com/from-the-scratch/http-server-what-do-you-need-to-know-to-build-a-simple-http-server-from-scratch-d1ef8945e4fa)  
+Реализация этой статьи на C++
+[Видео 1](https://www.youtube.com/watch?v=YwHErWJIh6Y)
+[Видео 2](https://www.youtube.com/watch?v=pTIZ9YjE3Pw)
+[Видео 3](https://www.youtube.com/watch?v=bEsRapsPAWI)
+[Видео 4](https://www.youtube.com/watch?v=N49UyTlUXp4)
+Другой подход к ООП архитектуре
+[Видео 1](https://www.youtube.com/watch?v=Kc1kwm1WyVM)
+[Видео 1](https://www.youtube.com/watch?v=YqEqjODUkWY)
+[Видео 1](https://www.youtube.com/watch?v=wKxbjB6zqS8&list=PLZo2FfoMkJeEogzRXEJeTb3xpA2RAzwCZ&index=32)
+Лекция написанию Weberv на С
+https://www.youtube.com/watch?v=HezLPzr75gE
+HTTP
+https://flagstudio.ru/blog/http-metody-status-cody-zagolovky
+https://www.youtube.com/watch?v=PpdQQjPS0MA&list=WL&index=18
+Nginx
+https://www.youtube.com/watch?v=fo5KYjqPfWs
+https://www.youtube.com/watch?v=EuSTB84VB9E
+https://runebook.dev/ru/docs/nginx/http/request_processing
+https://www.digitalocean.com/community/tutorials/understanding-nginx-server-and-location-block-selection-algorithms-ru
+Sockaddr
+https://russianblogs.com/article/8587603498/
+CGI
+https://www.youtube.com/watch?v=mMLJvZgkNQ8
+https://www.youtube.com/watch?v=sE8TATrW8k0
+boundary
+https://www.youtube.com/watch?v=_j5spdsJdV8&t=562s
+
