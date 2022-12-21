@@ -27,12 +27,11 @@
 - [webserv](#webserv)
 
 **Экзамены**
-- [](#)
-- [](#)
-- [](#)
-- [](#)
 
 **Проекты за кругом**
+- [ft_linear_regression](#linear_regression)
+
+# Common-core
 
 <a name="libft">Libft</a>  
 ----------
@@ -226,6 +225,10 @@ void    mlx_get_screen_size(int *width, int *height)
 
 <a name="containers">ft_containers</a>  
 ----------
+[Видеолекция по бинарным деревьям](https://mipt.lectoriy.ru/lecture/CompTech-Informat-L10-Derbysh-141128.01) от МФТИ  
+[Тестер](https://github.com/divinepet/ft_containers-unit-test) от @elaronda и @cshells  
+[Гайд](https://github.com/StrongUzumaki/FT_Containers/wiki) от @suzumaki  
+[Визуализатор](https://www.cs.usfca.edu/~galles/visualization/RedBlack.html) красно-черных деревьев  
 
 <a name="irc">ft_irc</a>
 ----------
@@ -265,3 +268,11 @@ CGI:
 [Видео 2](https://www.youtube.com/watch?v=sE8TATrW8k0)  
 boundary:  
 [Видео](https://www.youtube.com/watch?v=_j5spdsJdV8&t=562s)  
+
+# Экзамены
+
+# Проекты за кругом
+
+<a name="linear_regression">ft_linear_regression</a>
+----------
+[Теоретичиеские материалы](https://github.com/shuygena/linear_regression/wiki)
