@@ -31,11 +31,10 @@
 **Проекты за кругом**
 - [ft_linear_regression](#linear_regression)
 
-**Сабджекты**
-
-**Чек-листы**
-
-**Книги**
+**Полезные материалы**
+- [Сабджекты](#subjects)
+- [Чек-листы](#check-lists)
+- [Книги](#books)
 
 
 # Common-core
@@ -284,17 +283,21 @@ boundary:
 ----------
 [Теоретичиеские материалы](https://github.com/shuygena/linear_regression/wiki)
 
-# Сабджекты
+
+# Полезные материалы
+<a name="subjects">Сабджекты</a> 
+----------
 [Сборник сабджектов](https://github.com/evgenkarlson/ALL_SCHOOL_42) с навигацией на русском.  
 Ещё один [сборник сабджектов](https://github.com/fpetras/42-subjects), но уже не первой свежести.  
 [Сабджекты](https://github.com/Binary-Hackers/42_Subjects) шестилетней давности (а вдруг...).
 
-# Чек-листы 
-[Чек-листы](https://github.com/mharriso/school21-checklists) собирали всей школой :)
+<a name="check-lists">Чек-листы</a> 
+----------
+[Чек-листы](https://github.com/mharriso/school21-checklists) собирали всей Школой 21 :)
 
-# Книги
-
-Книги, которые очень помогут в преодолении коммон-кора (это база!):
+<a name="books">Книги</a> 
+----------
+Книги, которые очень помогут в преодолении коммон-кора (это база!):  
 [Изучаем программирование на C](https://vk.com/doc30298395_298187334?hash=kdPaoukP0pZywBgLXlPPrGAro3b8RYoS06iizVRkTmc&dl=fYQepAuttPz4jWbZ9c2Yy9eFYVXNKfOEsN3YpgcS2wD) - Д. Гриффитс, Д. Гриффитс  
 [Введение в операционные системы](http://www.stolyarov.info/books/pdf/osintro.pdf) - А. Столяров  
 [Алгоритмы. Построение и анализ](https://vk.com/doc179585542_437543470?hash=83777f0404cb6d6d7d&dl=5c71c40cb399227ec9) - Т.Кормен, Ч.Лейзерсон, Р.Ривест, К.Штайн 
