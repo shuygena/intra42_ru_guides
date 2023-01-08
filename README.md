@@ -31,6 +31,13 @@
 **Проекты за кругом**
 - [ft_linear_regression](#linear_regression)
 
+**Сабджекты**
+
+**Чек-листы**
+
+**Книги**
+
+
 # Common-core
 
 <a name="libft">Libft</a>  
@@ -198,7 +205,7 @@ void    mlx_get_screen_size(int *width, int *height)
 [Видеолекция](https://www.notion.so/miniRT-tutorials-eedfa239615042d582eeed1fae0209bc) на notion про miniRT    
 
 Ссылка на улучшенную браузерную версию есть в сабджекте: [Wolfenstein 3D](http://users.atw.hu/wolf3d/)  
-Чтобы ещё лучше понимать то, как игра спроектирована, а также те трудности, которые преодолевали разработчики - несколько лет назад вышла крутая фанатская книга Game Engine Black Book: Wolfenstein 3D - на 300 страниц с множеством скриншотов, из которой можно почерпнуть множество интересных деталей. [Книга](https://fabiensanglard.net/gebbwolf3d.pdf) бесплатна для скачивания.  
+Чтобы ещё лучше понимать то, как игра спроектирована, а также те трудности, которые преодолевали разработчики - несколько лет назад вышла крутая фанатская книга Game Engine Black Book: Wolfenstein 3D - на 300 страниц с множеством скриншотов, из которой можно почерпнуть множество интересных деталей. [Книга](https://vk.com/doc255577237_573973985?hash=JDaz325DdWZQ6HebiQKX2pKPRDAi7b2qeuaGxw4mEEL&dl=vvZ0w9jjsKCVfBLhxri4Ld9j2ZWgF9hw2nJ2SeRaM1T) бесплатна для скачивания.  
 [Видеолекция](https://www.notion.so/Cub3D-fd79729951a84906807af2b252f1d0bc) на notion про cub3d  
 
 <a name="netpractice">NetPractice</a>  
@@ -276,3 +283,18 @@ boundary:
 <a name="linear_regression">ft_linear_regression</a>
 ----------
 [Теоретичиеские материалы](https://github.com/shuygena/linear_regression/wiki)
+
+# Сабджекты
+[Сборник сабджектов](https://github.com/evgenkarlson/ALL_SCHOOL_42) с навигацией на русском.  
+Ещё один [сборник сабджектов](https://github.com/fpetras/42-subjects), но уже не первой свежести.  
+[Сабджекты](https://github.com/Binary-Hackers/42_Subjects) шестилетней давности (а вдруг...).
+
+# Чек-листы 
+[Чек-листы](https://github.com/mharriso/school21-checklists) собирали всей школой :)
+
+# Книги
+
+Книги, которые очень помогут в преодолении коммон-кора (это база!):
+[Изучаем программирование на C](https://vk.com/doc30298395_298187334?hash=kdPaoukP0pZywBgLXlPPrGAro3b8RYoS06iizVRkTmc&dl=fYQepAuttPz4jWbZ9c2Yy9eFYVXNKfOEsN3YpgcS2wD) - Д. Гриффитс, Д. Гриффитс  
+[Введение в операционные системы](http://www.stolyarov.info/books/pdf/osintro.pdf) - А. Столяров  
+[Алгоритмы. Построение и анализ](https://vk.com/doc179585542_437543470?hash=83777f0404cb6d6d7d&dl=5c71c40cb399227ec9) - Т.Кормен, Ч.Лейзерсон, Р.Ривест, К.Штайн 
