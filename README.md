@@ -276,6 +276,8 @@ boundary:
 [Видео](https://www.youtube.com/watch?v=_j5spdsJdV8&t=562s)  
 
 # Экзамены
+[Вариант 1](https://github.com/Kotletta-TT/this_fun/tree/master/exam)
+[Вариант 2](https://github.com/luta-wolf/42-examrank)
 
 # Проекты за кругом
 
