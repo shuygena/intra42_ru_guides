@@ -22,7 +22,7 @@
 - [NetPractice](#netpractice)
 - [CPP_Piscine](#cpp)
 - [Inception](#inception)
-- [ft_containers](#containers)
+- [ft_containers](#containers) (проект был заменён на CPP-09)  
 - [ft_irc](#irc)
 - [webserv](#webserv)
 
@@ -229,7 +229,7 @@ void    mlx_get_screen_size(int *width, int *height)
 [Гайд](https://github.com/codesshaman/inception) от @jleslee  
 [Гайд](https://github.com/luta-wolf/inception) от @einterdi  
 
-<a name="containers">ft_containers</a>  
+<a name="containers">ft_containers (проект был заменён на CPP-09)</a>  
 ----------
 [Видеолекция по бинарным деревьям](https://mipt.lectoriy.ru/lecture/CompTech-Informat-L10-Derbysh-141128.01) от МФТИ  
 [Тестер](https://github.com/divinepet/ft_containers-unit-test) от @elaronda и @cshells  
